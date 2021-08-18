@@ -1,0 +1,111 @@
+:root{
+--font-size:24px;
+--small-font:18px;
+--color-yellow: #FCEE21;
+--color-pulple: #5B2386;
+}
+body{
+  margin:0;
+  height: 100vh;
+  background-color: var(--color-pulple);
+}
+.container{
+  text-align: center;
+}
+.title{
+  width:500px;
+  margin-top:200px;
+}
+.clock{
+  width:225px;
+  position:absolute;
+  top:130px;
+  left:620px;
+}
+.text{
+  margin-top:100px;
+  font-size: var(--font-size);
+  color:var(--color-yellow);
+}
+.quote{
+  margin:100px;
+}
+.quote_img{
+  position: absolute;
+  left:485px;
+}
+.quoto_detail{
+  color:white;
+}
+.button{
+  margin:70px;
+}
+.input{
+  color:white;
+}
+::placeholder{
+  text-align:center;
+}
+.input_btn{
+  padding:15px;
+  border-radius: 10px;
+  margin:10px;
+  width:100px;
+}
+button.quiz{
+  padding:10px;
+  width:300px;
+  border-radius: 20px;
+  background-color: var(--color-yellow);
+  color:var(--color-pulple);
+  font-weight: bolder;
+}
+.go{
+  margin:30px;
+}
+span.programming{
+  font-size:40px;
+  font-weight: bold;
+ vertical-align:middle;
+}
+span.num{
+  font-size:40px;
+  font-weight: bold;
+ vertical-align:middle;
+}
+.program{
+  color:white;
+ margin:0px;
+ margin-bottom: 70px;
+ line-height: 50px;
+ 
+
+}
+button.gogo{
+  padding:10px;
+  width:200px;
+  border-radius: 20px;
+  color:var(--color-pulple);
+  font-weight: bold;
+  background-color: var(--color-yellow);
+}
+button.share{
+  padding:10px;
+  margin-left:5px;
+  width:100px;
+  border-radius: 20px;
+  color:var(--color-pulple);
+  font-weight: bold;
+}
+.go{
+  margin-bottom: 70px;
+}
+.logo{
+  width:80px;
+}
+p.weniv{
+  font-size:0.5em;
+  color:white;
+  line-height: 15px;
+  margin-top: 15px ;
+}
